@@ -20,7 +20,7 @@ const CardView = () => {
                     {/* <button>Cambiar color</button> */}
                 </div>
                 <div className={s.socialMedia}>
-                    <a href="https://github.com/bastianalzate" target="_blank">
+                    <a href="https://github.com/bastianalzate">
                         <FaGithub className={s.github} onClick={limpiadorURL}/>
                     </a>
                     <a href="https://www.linkedin.com/in/bastianalzate/" target="_blank">

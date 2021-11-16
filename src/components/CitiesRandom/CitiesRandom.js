@@ -12,7 +12,7 @@ const CitiesRandom = () => {
     useEffect(() => {
         citiesNames.map((citi, index) => {
             if(index < 5){
-                dispatch(fetchAddMiniCities(citi))
+               return dispatch(fetchAddMiniCities(citi))
             }
         })
     },[])
