@@ -1,0 +1,47 @@
+.searchBarContainer{
+    height: 10%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.searchBarContainer div{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.searchBarContainer div input{
+    margin-right: 10px;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.096);
+    padding: 5px 20px 5px 20px;
+    color: white;
+    outline: none;
+}
+
+.searchBarContainer div input::placeholder{
+    color: white;
+}
+
+.searchBarContainer div button{
+    padding: 5px 20px 5px 20px;
+    background-color: rgba(0, 0, 0, 0.137);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.iconSearch{
+    font-size:24px;
+    color: white;
+}
+
+/* ------------------------------------------------------------- */
+
+@media (max-width: 1056px){
+    .searchBarContainer div button{
+        display: none;
+    }
+}

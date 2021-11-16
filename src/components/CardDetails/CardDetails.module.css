@@ -1,0 +1,7 @@
+.cardDetailsContainer{
+    height: 100%;
+    width: 30%;
+    backdrop-filter: blur(17px);
+    padding: 0px 12px 0px 12px;
+    
+}

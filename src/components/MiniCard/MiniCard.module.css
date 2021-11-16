@@ -1,0 +1,38 @@
+.miniCardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 17%;
+    border: 1px solid white;
+    padding-top: 5px;
+    border-radius: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.miniCardContainer .titulo{
+    font-size: 11px;
+    
+}
+
+.miniCardContainer img{
+    height: 50px;
+    width: 50px;
+}
+
+.miniCardContainer:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 17%;
+    border: 1px solid white;
+    padding-top: 5px;
+    border-radius: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color: black;
+}

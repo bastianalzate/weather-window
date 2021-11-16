@@ -1,0 +1,106 @@
+.cardViewContainer{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.cardViewContainer .timeContainer, .contentContainer, .socialContainer{
+    width: 80%;
+    margin: auto;
+}
+
+.cardViewContainer .socialContainer{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardViewContainer .timeContainer{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardViewContainer .contentContainer{
+    height: 30%;
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cardViewContainer .contentContainer .tempContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;   
+    height: 70%;
+    margin-right: 20px;
+}
+
+.cardViewContainer .contentContainer .nameContainer{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.cardViewContainer .contentContainer .nameContainer h1{
+    font-size: 36px;
+}
+
+
+
+.cardViewContainer .contentContainer .imgContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.cardViewContainer .contentContainer .imgContainer img{
+    margin-top: -5px;
+}
+
+.cardViewContainer .contentContainer .imgContainer span{
+    font-size: 12px;
+    margin-top: -20px;
+}
+
+.socialMedia{
+    font-size: 28px;
+}
+
+.linkedin{
+    margin-left: 7px;
+    margin-right: 7px;
+    color: white;
+}
+
+.linkedin:hover{
+    margin-left: 7px;
+    margin-right: 7px;
+    color: rgb(49, 146, 238);
+}
+
+.github{
+    margin-left: 7px;
+    margin-right: 7px;
+    color: white;
+}
+
+.github:hover{
+    margin-left: 7px;
+    margin-right: 7px;
+    color: black;
+}
+
+/* ------------------------------------------------------------- */

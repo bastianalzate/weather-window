@@ -1,0 +1,14 @@
+
+.citiesRandomContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+

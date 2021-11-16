@@ -1,0 +1,10 @@
+.appContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    width: 100%;
+    margin: auto;
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    background-size: cover;
+}

@@ -1,0 +1,10 @@
+.CardContainer{
+    display: flex;
+    height: 75vh;
+    width: 90%;
+    background-image: url("https://siaguanta.com/wp-content/uploads/2020/05/que-es-wallpaper1.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.267);
+    background-blend-mode: multiply;
+    box-shadow: 5px 7px 20px rgb(19, 19, 19);
+}

@@ -1,0 +1,23 @@
+.timeContainer{
+    color: white;    
+}
+
+.timeContainer .time{
+    height: 70%;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.timeContainer .date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.timeContainer .time span{
+    font-size: 64px;
+}
