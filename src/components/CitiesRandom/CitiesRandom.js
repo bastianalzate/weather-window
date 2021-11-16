@@ -15,7 +15,7 @@ const CitiesRandom = () => {
         //        return dispatch(fetchAddMiniCities(citi))
         //     }
         // })
-        citiesNames.forEach((citi, index) => {
+        citiesNames?.forEach((citi, index) => {
             if(index < 5){
                 dispatch(fetchAddMiniCities(citi))
             }
