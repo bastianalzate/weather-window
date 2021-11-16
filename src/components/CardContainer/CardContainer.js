@@ -1,4 +1,4 @@
-import React, from "react";
+import React from "react";
 import CardDetails from "../CardDetails/CardDetails";
 import CardView from "../CardView/CardView";
 import s from "./CardContainer.module.css";
