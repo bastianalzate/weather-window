@@ -23,7 +23,7 @@ const CardView = () => {
                     <a href="https://github.com/bastianalzate">
                         <FaGithub className={s.github} onClick={limpiadorURL}/>
                     </a>
-                    <a href="https://www.linkedin.com/in/bastianalzate/" target="_blank">
+                    <a href="https://www.linkedin.com/in/bastianalzate/">
                         <FaLinkedin className={s.linkedin} onClick={limpiadorURL}/>
                     </a>
                 </div>
@@ -40,7 +40,7 @@ const CardView = () => {
                     <h1>{citie.name}</h1>
                 </div>
                 <div className={s.imgContainer}>
-                    <img src={`http://openweathermap.org/img/wn/${citie.weather[0].icon}@2x.png`} />
+                    <img src={`http://openweathermap.org/img/wn/${citie.weather[0].icon}@2x.png`} alt="text" />
                     <span>{citie.weather[0].description}</span>
                 </div>
             </div>
