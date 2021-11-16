@@ -5,7 +5,6 @@ import MiniCard from "../MiniCard/MiniCard";
 import s from "./CitiesRandom.module.css";
 
 const CitiesRandom = () => {
-    const citiesNames = useSelector(state => state.citiesNames);
     const citiesMiniCards = useSelector(state => state.citiesMiniCards)
     // const dispatch = useDispatch()
 
