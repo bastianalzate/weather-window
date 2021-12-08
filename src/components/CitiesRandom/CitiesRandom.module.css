@@ -1,7 +1,7 @@
 
 .citiesRandomContainer{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     height: 30%;
@@ -10,5 +10,12 @@
     border-bottom: 1px solid white;
     padding-bottom: 10px;
     padding-top: 5px;
+    overflow: hidden;
 }
 
+
+@media (max-width: 900px) {
+    .citiesRandomContainer{
+       display: none;
+    }
+}

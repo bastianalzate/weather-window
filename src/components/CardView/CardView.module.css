@@ -104,3 +104,11 @@
 }
 
 /* ------------------------------------------------------------- */
+
+
+@media (max-width: 750px) {
+    .cardViewContainer .socialContainer{
+        display: flex;
+        justify-content: center;
+    }
+}

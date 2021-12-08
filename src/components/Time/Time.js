@@ -26,7 +26,7 @@ const Time = () => {
                 <span>{state.min < 10 ? `0${state.min}` : state.min}</span>
             </div>
             <div className={s.date}>
-                <p>Sabado 18 de Septiembre 2021</p>
+                <p>Miercoles 8 de Diciembre 2021</p>
             </div>
             {/* <span>{state.sec}</span> */}
         </div>

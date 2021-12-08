@@ -24,3 +24,11 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+@media (max-width: 750px) {
+    .citieDetailsContainer{
+        width: 100%;
+        border-bottom: none;
+    }
+}

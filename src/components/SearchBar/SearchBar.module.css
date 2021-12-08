@@ -2,6 +2,8 @@
     height: 10%;
     width: 100%;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .searchBarContainer div{
@@ -9,20 +11,21 @@
     display: flex;
     justify-content: center;
     margin: auto;
+    align-items: center;
 }
 
 .searchBarContainer div input{
     margin-right: 10px;
     border: none;
-    border-bottom: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.096);
-    padding: 5px 20px 5px 20px;
-    color: white;
-    outline: none;
+    border-bottom: 1px solid rgb(243, 243, 243);
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 10px 15px 10px 15px;
+    color: rgb(238, 238, 238); 
+    border-image-outset: 0ch;
 }
 
 .searchBarContainer div input::placeholder{
-    color: white;
+    color: rgb(197, 197, 197);
 }
 
 .searchBarContainer div button{

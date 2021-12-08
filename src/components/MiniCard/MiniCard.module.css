@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     height: 80%;
-    width: 17%;
+    width: 30%;
     border: 1px solid white;
     padding-top: 5px;
     border-radius: 10px;
@@ -13,7 +14,12 @@
 }
 
 .miniCardContainer .titulo{
-    font-size: 11px;
+    font-size: 14px;
+    color: rgb(233, 233, 233);
+}
+
+.miniCardContainer .temp{
+    font-size: 22px;
     
 }
 
@@ -28,7 +34,7 @@
     align-items: center;
     flex-wrap: wrap;
     height: 80%;
-    width: 17%;
+    width: 30%;
     border: 1px solid white;
     padding-top: 5px;
     border-radius: 10px;
