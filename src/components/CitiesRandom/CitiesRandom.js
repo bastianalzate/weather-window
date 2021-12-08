@@ -10,11 +10,7 @@ const CitiesRandom = () => {
     const dispatch = useDispatch()
 
     useEffect(() => {
-        // citiesNames.map((citi, index) => {
-        //     if(index < 5){
-        //        return dispatch(fetchAddMiniCities(citi))
-        //     }
-        // })
+        
         citiesNames?.forEach((citi, index) => {
             if(index < 5){
                 dispatch(fetchAddMiniCities(citi))

@@ -18,7 +18,7 @@ export const addMiniCities = (payload) => {
 export const fetchAddCities = (ciudad) => {
     const apiKey = "4ae2636d8dfbdc3044bede63951a019b"
     return (dispatch) => {
-        fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
         .then(response => response.json())
         .then(data => dispatch(addCities(data)))
     }
@@ -27,7 +27,7 @@ export const fetchAddCities = (ciudad) => {
 export const fetchAddMiniCities = (ciudad) => {
     const apiKey = "4ae2636d8dfbdc3044bede63951a019b"
     return (dispatch) => {
-        fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${apiKey}&units=metric`)
         .then(response => response.json())
         .then(data => dispatch(addMiniCities(data)))
     }
