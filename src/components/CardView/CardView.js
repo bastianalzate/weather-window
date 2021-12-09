@@ -40,7 +40,7 @@ const CardView = () => {
                     <h1>{citie.name}</h1>
                 </div>
                 <div className={s.imgContainer}>
-                    <img src={`http://openweathermap.org/img/wn/${citie.weather[0].icon}@2x.png`} alt="text" />
+                    <img src={`https://openweathermap.org/img/wn/${citie.weather[0].icon}@2x.png`} alt="text" />
                     <span>{citie.weather[0].description}</span>
                 </div>
             </div>
