@@ -110,5 +110,55 @@
     .cardViewContainer .socialContainer{
         display: flex;
         justify-content: center;
+        width: 100%;
+        height: 15%;
+    }
+
+    .cardViewContainer{
+        height: 55%;
+    }
+
+    .cardViewContainer .timeContainer{
+        width: 100%;
+        height: 30%;
+    }
+
+    .cardViewContainer .contentContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+    }
+    .cardViewContainer .contentContainer .tempContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;   
+        height: 70%;
+        margin-right: 20px;
+        width: 100%;
+        margin: auto;
+        height: 20%;
+    }
+    .cardViewContainer .contentContainer .nameContainer{
+        width: 100%;
+        margin: auto;
+        height: 15%;
+    }
+
+    .cardViewContainer .contentContainer .nameContainer h1{
+        font-size: 20px;
+    }
+    .cardViewContainer .contentContainer .imgContainer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 50%;
+    }
+
+    .cardViewContainer .contentContainer .imgContainer img{
+        margin-top: -20px;
     }
 }

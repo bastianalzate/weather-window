@@ -28,7 +28,6 @@ const Time = () => {
             <div className={s.date}>
                 <p>Miercoles 8 de Diciembre 2021</p>
             </div>
-            {/* <span>{state.sec}</span> */}
         </div>
     )
 }

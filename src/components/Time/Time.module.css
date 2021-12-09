@@ -21,3 +21,10 @@
 .timeContainer .time span{
     font-size: 64px;
 }
+
+
+@media (max-width: 750px) {
+    .timeContainer .time{
+        margin-top: 0px;
+    }
+}

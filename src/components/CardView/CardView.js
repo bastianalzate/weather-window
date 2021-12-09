@@ -6,7 +6,7 @@ import s from "./CardView.module.css";
 import { useHistory } from "react-router";
 
 const CardView = () => {
-    const citie = useSelector(state => state.citieLoaded)
+    const { citieLoaded } = useSelector(state => state)
     const history = useHistory();
 
     const limpiadorURL = () => {
@@ -34,14 +34,14 @@ const CardView = () => {
 
             <div className={s.contentContainer}>
                 <div className={s.tempContainer}>
-                    <span>{citie.main.temp}°</span>
+                    <span>{citieLoaded.main.temp}°</span>
                 </div>
                 <div className={s.nameContainer}>
-                    <h1>{citie.name}</h1>
+                    <h1>{citieLoaded.name}</h1>
                 </div>
                 <div className={s.imgContainer}>
-                    <img src={`https://openweathermap.org/img/wn/${citie.weather[0].icon}@2x.png`} alt="text" />
-                    <span>{citie.weather[0].description}</span>
+                    <img src={`https://openweathermap.org/img/wn/${citieLoaded.weather[0].icon}@2x.png`} alt="text" />
+                    <span>{citieLoaded.weather[0].description}</span>
                 </div>
             </div>
         </div>
