@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import Time from "../Time/Time";
 import {FaGithub, FaLinkedin} from "react-icons/fa";
@@ -32,18 +32,34 @@ const CardView = () => {
                 <Time />
             </div>
 
-            <div className={s.contentContainer}>
-                <div className={s.tempContainer}>
-                    <span>{citieLoaded.main.temp}°</span>
+            {
+                citieLoaded.main ? 
+                <div className={s.contentContainer}>
+                    <div className={s.tempContainer}>
+                        <span>{citieLoaded.main.temp}°</span>
+                    </div>
+                    <div className={s.nameContainer}>
+                        <h1>{citieLoaded.name}</h1>
+                    </div>
+                    <div className={s.imgContainer}>
+                        <img src={`https://openweathermap.org/img/wn/${citieLoaded.weather[0].icon}@2x.png`} alt="text" />
+                        <span>{citieLoaded.weather[0].description}</span>
+                    </div>
                 </div>
-                <div className={s.nameContainer}>
-                    <h1>{citieLoaded.name}</h1>
+                :
+                <div className={s.contentContainer}>
+                    <div className={s.tempContainer}>
+                        <span>{"0"}°</span>
+                    </div>
+                    <div className={s.nameContainer}>
+                        <h1>{"Sin definir"}</h1>
+                    </div>
+                    <div className={s.imgContainer}>
+                        <img src={`https://openweathermap.org/img/wn/03d@2x.png`} alt="text" />
+                        <span>{""}</span>
+                    </div>
                 </div>
-                <div className={s.imgContainer}>
-                    <img src={`https://openweathermap.org/img/wn/${citieLoaded.weather[0].icon}@2x.png`} alt="text" />
-                    <span>{citieLoaded.weather[0].description}</span>
-                </div>
-            </div>
+            }
         </div>
     )
 }

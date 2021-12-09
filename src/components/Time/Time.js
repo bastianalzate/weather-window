@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import s from "./Time.module.css";
+import moment from "moment";
+
+console.log(moment)
 
 const Time = () => {
     const [state, setState] = useState({
@@ -19,6 +22,8 @@ const Time = () => {
         }, 1000)
     }, [state.hour, state.min, state.sec])
 
+    const date = moment().format('LLLL').split(",")
+    const year = date[2].slice(1, 5)
     return(
         <div className={s.timeContainer}>
             <div className={s.time}>
@@ -26,7 +31,7 @@ const Time = () => {
                 <span>{state.min < 10 ? `0${state.min}` : state.min}</span>
             </div>
             <div className={s.date}>
-                <p>Miercoles 8 de Diciembre 2021</p>
+                <p>{`${date[0]} ${date[1]} ${year}`}</p>
             </div>
         </div>
     )

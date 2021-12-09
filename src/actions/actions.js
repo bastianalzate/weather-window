@@ -1,5 +1,4 @@
 import Swal from 'sweetalert2'
-
 import { ADD_CITIES, ADD_MINI_CITIE } from "../action-types/const";
 
 export const addCities = (payload) => {
