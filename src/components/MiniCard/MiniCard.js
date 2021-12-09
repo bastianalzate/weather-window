@@ -20,7 +20,7 @@ const MiniCard = (props) => {
                 {props.main.temp}°
             </span>
 
-            <img src={`http://openweathermap.org/img/wn/${props.weather[0].icon}@2x.png`} alt="img" />
+            <img src={`https://openweathermap.org/img/wn/${props.weather[0].icon}@2x.png`} alt="img" />
         </div>
     )
 }
