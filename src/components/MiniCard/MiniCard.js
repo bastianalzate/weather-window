@@ -16,7 +16,7 @@ const MiniCard = (props) => {
                 {props.name}
             </span>
 
-            <span className={s.temp}>
+            <span className={s.containerTemp}>
                 {props.main.temp}°
             </span>
 
